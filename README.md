@@ -1,5 +1,7 @@
 # dog-classification
-[dog image data source from Stanford](http://vision.stanford.edu/aditya86/ImageNetDogs/)
+[Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
+
+[The Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/)
 
 ## Motivation
 ## Existing solution
