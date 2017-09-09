@@ -4,7 +4,7 @@
 [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
 ## Motivation
-1. practice my understand about dnn,cnn. then you can talk about what is dnn , rnn
+1. practice my understand about dnn,cnn. then you can talk about what is dnn , cnn
 
 2. kaggle cat vs dog competition. this project take this into next level by doing dog-breed classifaction
 
