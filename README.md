@@ -5,20 +5,32 @@
 
 ## Motivation
 1. practice my understand about dnn,cnn. then you can talk about what is dnn , rnn
+
 2. kaggle cat vs dog competition. this project take this into next level by doing dog-breed classifaction
+
 3. dataset itself is great. i can do soemthing with it.
+
 ## Third-partiy package I used
 1.Keras
+
 2.Tensorflow
+
 3.Sklearn
+
 4.numpy
 
 ## My approach
 1.Human-face detector: OpenCV pre-trained haarcascade_frontalface classifier
+
 2.Dog-face detector: ResNet50 pre-trained model using imageNet data from Keras
+
 3.Transfer learning using resnet 50
+
 
 ## Next steps
 1.More data
+
 2.Better architecture
+
 3.Web-based app
+
