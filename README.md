@@ -20,7 +20,8 @@
 4.numpy
 
 ## My approach
-1.Human-face detector: OpenCV pre-trained haarcascade_frontalface classifier
+1.Human-face detector: OpenCV pre-trained haarcascade_frontalface classifier 
+(u can also talk about type I, type II erros here)
 
 2.Dog-face detector: ResNet50 pre-trained model using imageNet data from Keras
 
@@ -28,7 +29,7 @@
 
 
 ## Next steps
-1.More data
+1.More data (why more data can help?)
 ### [The Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/)
 
 2.Better architecture
