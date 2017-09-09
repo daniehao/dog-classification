@@ -1,7 +1,7 @@
 # dog-breed-classification
-[Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
-[The Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/)
+## Dataset
+[Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
 ## Motivation
 1. practice my understand about dnn,cnn. then you can talk about what is dnn , rnn
@@ -29,6 +29,7 @@
 
 ## Next steps
 1.More data
+### [The Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/)
 
 2.Better architecture
 
