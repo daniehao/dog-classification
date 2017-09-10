@@ -19,8 +19,7 @@ My dataset for this dog- classification project includes the images of 133 breed
 ## Motivation
 1.Earned some essential knowledges about CNN and DNN 
 
-I learned about CNN(conventional neural networks) and DNN(deep neural networks) from online classes, which 
-
+I learned about CNN(conventional neural networks) and DNN(deep neural networks) from online classes, which intrigues my curiority to do some practical projects using the most popular packages to build the architecture of CNN and DNN networks.
 
 2.kaggle cat vs dog competition. 
 
