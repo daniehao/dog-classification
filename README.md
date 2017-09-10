@@ -2,15 +2,15 @@
 
 ## Project Introduction
 This project aims to figure out a quick-way to match a human's photo to the closeast breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. I only hope to do an identify of the dog-breed identification at the beginning, but later on, I came up with this interesting idea to do a mapping with human's photo to a speicfic breed of dog in largest similarity. The following steps are included in my project.
-Step 0: 
+* Step 0: 
 Import dog data
-Step: 1:
+* Step: 1:
 Detect Humans
-Step 2: 
+* Step 2: 
 Detect Dogs
-Step 3: 
+* Step 3: 
 Create a CNN to Classify Dog Breeds(Transfer Learning)
-Step 4:
+* Step 4:
 Upload your picture
 
 ## Dataset
@@ -31,12 +31,16 @@ OpenCV and Restnet50 have been pre-trained and well- defined.
 
 ## Third-partiy package I used
 1.Keras
+https://pypi.python.org/pypi/Keras
 
 2.Tensorflow
+https://pypi.python.org/pypi/tensorflow
 
 3.Sklearn
+https://pypi.python.org/pypi/scikit-learn
 
 4.numpy
+https://pypi.python.org/pypi/numpy
 
 ## My approach
 1.Human-face detector: OpenCV pre-trained haarcascade_frontalface classifier 
@@ -45,13 +49,18 @@ OpenCV pre-trained haarcascade_frontalface classifier helps to extract 2D and 3D
 
 2.Dog-face detector and Transfer learning: ResNet50 pre-trained model 
 
-I mainly use Restnet50 for the dog detector, the architecture that was originaly developed by researchers from Microsoft Research. The paper Deep Residual Learning for Image Recognition talks about how does the Microsoft team design experiments on ImageNet to show the degradation problem and evaluate their method. Their achievement is to evaluate residual nets with a depth of up to 152 layers—8× deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. With a higher accuracy and well- defined architecture, it is earsier for me to do the transfer learning in the last part in order to achieve my final goal. The accuracy provided by their team is 3.57% from big picture, but I also did an accuracy measurement in my own project as I mentioned above.  
+I mainly use Restnet50 for the dog detector, the architecture that was originaly developed by researchers from Microsoft Research. The paper Deep Residual Learning for Image Recognition talks about how does the Microsoft team design experiments on ImageNet to show the degradation problem and evaluate their method. (http://arxiv.org/abs/1512.03385)Their achievement is to evaluate residual nets with a depth of up to 152 layers—8× deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. With a higher accuracy and well- defined architecture, it is earsier for me to do the transfer learning in the last part in order to achieve my final goal. The accuracy provided by their team is 3.57% in general, but I also did an accuracy measurement in my own project as I mentioned above. Furtherly, the accuracy for my dog breed classification model is 81.2201%, that is, there is 81.2201% probability for my program to correctly identify the dog breed if anyone upload a dog's picture. If a human picture was uploaded, then it would detect the human face, and automatically match up with the closest dog.
 
 ## Next steps
-1.More data (why more data can help?)
-### [The Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/)
+1.Change to a larger database
 
-2.Better architecture to decrease the type I and type II error of OpenCV.
+[The Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/)
+A larger database could increase the model accuracy by decreasing the overfitting problems and help the computer to extract more gerenal features.
+
+2.Better architecture 
+
+I do hope to build an architecture with a better performance than OpenCV and ResNet50 in the future. On the other hand, I wish my architecture could easily do a similarity between two pictures so that I could know how well my transfer learning part works.
 
 3.Web-based app
-I hope to do a web-based app and could enable any people to use this program.
+
+I would like to do an open source web-based app which could enable any people to use my program.
