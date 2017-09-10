@@ -1,4 +1,4 @@
-# dog-breed-classification
+# Dog-Breed-Classification
 
 ## Project Introduction
 This project aims to figure out a quick-way to match a human's photo to the closeast breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. I only hope to do an identify of the dog-breed identification at the beginning, but later on, I came up with this interesting idea to do a mapping with human's photo to a speicfic breed of dog in largest similarity.
@@ -10,10 +10,10 @@ My dataset for this dog- classification project includes the images of 133 breed
 1. Earned some essential knowledges about CNN and DNN 
 I learned about CNN(conventional neural networks) and DNN(deep neural networks) from online classes, which 
 
-II. kaggle cat vs dog competition. 
+2. kaggle cat vs dog competition. 
 Few months ago, I saw a competition from Kaggle named "Create an algorithm to distinguish dogs from cats". Even though this competition was due by four years ago, this interesting topic is still the initial incentive for me to do this project and which enables me to take this into next level by doing dog-breed classifaction.
 
-II. Advanced and classifed dataset provided
+3. Advanced and classifed dataset provided
 Collecting data for different breed of dogs could be a tough work, since it requires 70 to 100 plus imagines for the same breed of dog from all over the world. However, the dataset I got has already been collected and classified, so I could directly use it for deep learning modeling.
 
 ## Third-partiy package I used
