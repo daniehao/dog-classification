@@ -1,6 +1,6 @@
 # Dog-Breed-Classification
 
-## Project Introduction
+## Introduction
 This project aims to figure out a quick-way to match a human's photo to the closeast breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. I only hope to do an identify of the dog-breed identification at the beginning, but later on, I came up with this interesting idea to do a mapping with human's photo to a speicfic breed of dog in largest similarity. The following steps are included in my project.
 * Step 0: 
 Import dog data
@@ -42,7 +42,7 @@ https://pypi.python.org/pypi/scikit-learn
 4.numpy
 https://pypi.python.org/pypi/numpy
 
-## My approach
+## Approaches
 1.Human-face detector: OpenCV pre-trained haarcascade_frontalface classifier 
 
 OpenCV pre-trained haarcascade_frontalface classifier helps to extract 2D and 3D features in python and works well on face detector. However, The type I error for my Human Face Detector is 4%, and the type II error for Human Face Detector is 11%. The dog defector performs better on my dataset with a zero type I error and a zero type II error.
@@ -52,10 +52,9 @@ OpenCV pre-trained haarcascade_frontalface classifier helps to extract 2D and 3D
 I mainly use Restnet50 for the dog detector, the architecture that was originaly developed by researchers from Microsoft Research. The paper Deep Residual Learning for Image Recognition talks about how does the Microsoft team design experiments on ImageNet to show the degradation problem and evaluate their method. (http://arxiv.org/abs/1512.03385)Their achievement is to evaluate residual nets with a depth of up to 152 layers—8× deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. With a higher accuracy and well- defined architecture, it is earsier for me to do the transfer learning in the last part in order to achieve my final goal. The accuracy provided by their team is 3.57% in general, but I also did an accuracy measurement in my own project as I mentioned above. Furtherly, the accuracy for my dog breed classification model is 81.2201%, that is, there is 81.2201% probability for my program to correctly identify the dog breed if anyone upload a dog's picture. If a human picture was uploaded, then it would detect the human face, and automatically match up with the closest dog.
 
 ## Next steps
-1.Change to a larger database
+1.Change to a larger database [The Oxford-IIIT Pet Dataset]
 
-[The Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/)
-A larger database could increase the model accuracy by decreasing the overfitting problems and help the computer to extract more gerenal features.
+A larger database could increase the model accuracy by decreasing the overfitting problems and help the computer to extract more gerenal features(http://www.robots.ox.ac.uk/~vgg/data/pets/).
 
 2.Better architecture 
 
@@ -63,4 +62,11 @@ I do hope to build an architecture with a better performance than OpenCV and Res
 
 3.Web-based app
 
-I would like to do an open source web-based app which could enable any people to use my program.
+I would like to do an open source web-based app and match up human faces to more animals other than dogs.
+
+## Citations
+Dogs vs. Cats | Kaggle, www.kaggle.com/c/dogs-vs-cats. Accessed 10 Sept. 2017.
+Visual Geometry Group: Oxford-IIIT Pet Dataset, www.robots.ox.ac.uk/~vgg/data/pets/.
+He, Kaiming, et al. “Deep Residual Learning for Image Recognition.” [1512.03385] Deep Residual Learning for Image Recognition, 10 Dec. 2015, arxiv.org/abs/1512.03385. Accessed 10 Sept. 2017.
+“ImageNet.” ImageNet, www.image-net.org/. Accessed 10 Sept. 2017.
+
