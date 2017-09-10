@@ -74,11 +74,11 @@ I would like to do an open source web-based app and match up human faces to more
 
 ## Citations
 Dogs vs. Cats | Kaggle, www.kaggle.com/c/dogs-vs-cats. Accessed 10 Sept. 2017.
-Visual Geometry Group: Oxford-IIIT Pet Dataset, www.robots.ox.ac.uk/~vgg/data/pets/.
+  Visual Geometry Group: Oxford-IIIT Pet Dataset, www.robots.ox.ac.uk/~vgg/data/pets/.
 
-He, Kaiming, et al. “Deep Residual Learning for Image Recognition.” [1512.03385] Deep Residual Learning for Image Recognition, 10 Dec. 2015, arxiv.org/abs/1512.03385. Accessed 10 Sept. 2017.
+He, Kaiming, et al. “Deep Residual Learning for Image Recognition.” [1512.03385] Deep Residual Learning for Image Recognition, 10 Dec.       2015, arxiv.org/abs/1512.03385. Accessed 10 Sept. 2017.
 
 “ImageNet.” ImageNet, www.image-net.org/. Accessed 10 Sept. 2017.
 
-Deeplearning.net. (2017). Convolutional Neural Networks (LeNet) — DeepLearning 0.1 documentation. [online] Available at: http://deeplearning.net/tutorial/lenet.html [Accessed 10 Sep. 2017].
+Deeplearning.net. (2017). Convolutional Neural Networks (LeNet) — DeepLearning 0.1 documentation. [online] Available at:      http://deeplearning.net/tutorial/lenet.html [Accessed 10 Sep. 2017].
 
