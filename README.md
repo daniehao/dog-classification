@@ -1,4 +1,5 @@
 # Dog-Breed-Classification
+Yijia(Danie) Hao
 
 ## Introduction
 This project aims to figure out a quick-way to match a human's photo to the closeast breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. I only hope to do an identify of the dog-breed identification at the beginning, but later on, I came up with this interesting idea to do a mapping with human's photo to a speicfic breed of dog in largest similarity. The following steps are included in my project.
