@@ -32,7 +32,7 @@ A few months ago, I saw a competition from Kaggle named "Create an algorithm to 
 Collecting data for the different breed of dogs could be a tough work, since it requires 70 to 100 plus imagines for the same breed of dog from all over the world. However, the dataset I got has already been collected and classified, so I could directly use it for deep learning modeling.
 
 
-4.Well- defined architecture
+4.Well-defined architecture
 
 OpenCV and Restnet50 have been pre-trained and well- defined.
 
