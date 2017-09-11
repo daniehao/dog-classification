@@ -18,7 +18,7 @@ Upload your picture
 My dataset for this dog- classification project includes the images of 133 breed of dogs, which is collected by Udacity.com. The three dataset train, test and valid have already been classified. The train dataset is used for estimating predictive relationships and fit for the estimators; The valid dataset is used for improving overfitting problems existed in train dataset; The test dataset is used for testing the performance of the whole network.
 
 ## Motivation
-1.Earned some essential knowledges about CNN and DNN 
+1.Earned some essential knowledge about CNN and DNN 
 
 I learned about CNN(conventional neural networks) and DNN(deep neural networks) from online classes, which intrigues my curiosity to do some practical projects using the most popular packages to build the architecture of CNN and DNN networks.
 
@@ -27,7 +27,7 @@ I learned about CNN(conventional neural networks) and DNN(deep neural networks) 
 A few months ago, I saw a competition from Kaggle named "Create an algorithm to distinguish dogs from cats". Even though this competition was due by four years ago, this interesting topic is still the initial incentive for me to do this project and which enables me to take this into next level by doing dog-breed classification.
 
 
-3.Advanced and classifed dataset provided
+3.Advanced and classified dataset provided
 
 Collecting data for the different breed of dogs could be a tough work, since it requires 70 to 100 plus imagines for the same breed of dog from all over the world. However, the dataset I got has already been collected and classified, so I could directly use it for deep learning modeling.
 
