@@ -36,7 +36,7 @@ Collecting data for different breed of dogs could be a tough work, since I need 
 
 OpenCV and Restnet50 have been pre-trained and well- defined.
 
-## Third-party package I used
+## Third-party packages 
 1.Keras
 https://pypi.python.org/pypi/Keras
 
