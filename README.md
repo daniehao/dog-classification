@@ -6,7 +6,7 @@ This project aims to figure out a quick way to match a human's photo to the clos
 * Step 0: 
 Import Dog Data
 * Step: 1:
-Detect Humans
+Detect Human Face
 * Step 2: 
 Detect Dogs
 * Step 3: 
