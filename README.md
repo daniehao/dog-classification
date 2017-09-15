@@ -52,7 +52,7 @@ https://pypi.python.org/pypi/numpy
 ## Approaches
 1.Human-face detector: OpenCV pre-trained haarcascade_frontalface classifier 
 
-OpenCV pre-trained haarcascade_frontalface classifier helps to extract 2D and 3D features in python and works well on face detector. After doing test for my model, the type I error for my Human Face Detector is 4%, and the type II error for Human Face Detector is 11%. However, The dog detector performs better on my dataset with a zero type I error and a zero type II error.
+OpenCV pre-trained haarcascade_frontalface classifier helps to extract 2D and 3D features in python and works well on face detector. After doing test for my model, the type I error for my Human Face Detector is 4%, and the type II error for Human Face Detector is 11%. However, the dog detector performs better on my dataset with a zero type I error and a zero type II error.
 
 
 2.Dog-face detector and Transfer learning: ResNet50 pre-trained model 
