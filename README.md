@@ -2,7 +2,8 @@
 Author: Yijia Hao (Danie)
 
 ## Introduction
-This project aims to figure out a quick way to match a human's photo to the closest breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. At the beginning, I just hope to do an identity of dogs and human face, but I came up with an interesting idea to do a mapping from human's photo to a specific breed of dog later on. The following steps are included in my project.
+This project aims to figure out a quick way to match a human's photo to the closest breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. My inspiration came from Kaggle competition and a dog dataset created by the artificial intelligence team of Udacity. While I just hoped to do an identity of dogs and human face at the beginning, I came up with a more interesting idea to do a mapping for human faces and a specific breed of dog later on. The following steps are included in my project.
+
 * Step 0: 
 Import Dog Data
 * Step: 1:
@@ -20,16 +21,16 @@ My dataset for this dog- classification project includes the images of 133 breed
 ## Motivation
 1.Earned some essential knowledge about CNN and DNN 
 
-I learned about CNN(conventional neural networks) and DNN(deep neural networks) from online classes, which intrigued my curiosity to do some practical projects using the most popular packages to build the architecture of CNN and DNN networks.
+I learned about CNN(conventional neural networks) and DNN(deep neural networks) from online classes, which intrigued my curiosity to do some practical projects with the most popular packages to build the architecture of CNN and DNN networks.
 
 2.kaggle cat vs dog competition. 
 
-A few months ago, I saw a competition from Kaggle named "Create an algorithm to distinguish dogs from cats". Even though this competition was due by four years ago, this interesting topic is the initial incentive for me to do this project and which enables me to take this into next level by doing dog-breed classification.
+A few months ago, I saw a competition from Kaggle.com named "Create an algorithm to distinguish dogs from cats". Even though this competition was due by four years ago, this interesting topic push me to do this project and which enables me to take this into next level by doing dog-breed classification.
 
 
 3.Advanced and classified dataset provided
 
-Collecting data for different breed of dogs could be a tough work, since I need 70 to 100 plus imagines for each breed of dog from all over the world. However, the dataset I got has already been collected and classified, so I could directly use it for deep learning modeling.
+Collecting data for different breed of dogs could be a tough work since I need 70 to 100 plus imagines for each breed of dog from all over the world. However, the dataset I got has already been collected and classified, so I could directly use it for deep learning modeling.
 
 
 4.Well-defined architecture
@@ -57,7 +58,7 @@ OpenCV pre-trained haarcascade_frontalface classifier helps to extract 2D and 3D
 
 2.Dog-face detector and Transfer learning: ResNet50 pre-trained model 
 
-I mainly use Restnet50 for the dog detector, the architecture that was originally developed by researchers from Microsoft Research. The paper Deep Residual Learning for Image Recognition talks about how the Microsoft team designed experiments on ImageNet to show the degradation problem and evaluate their method. (http://arxiv.org/abs/1512.03385) Their achievement is to evaluate residual nets with a depth of up to 152 layers—8× deeper than VGG nets but still stay in a lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. With a higher accuracy and well- defined architecture, it is easier for me to do the transfer learning in the last part in order to achieve my final goal. The accuracy provided by their team is 3.57% in general, but I also did an accuracy measurement in my own project as I mentioned above. The accuracy for my dog breed classification model is 81.2201%, that is, there is 81.2201% probability for my model to correctly identify the dog breed if anyone uploads a dog's picture. If a human picture is uploaded, then it would detect the human face, and automatically match up with the closest dog.
+I mainly use Restnet50 for the dog detector, the architecture that was originally developed by researchers from Microsoft Research. The paper Deep Residual Learning for Image Recognition talks about how the Microsoft team designed experiments on ImageNet to show the degradation problem and evaluate their method. (http://arxiv.org/abs/1512.03385) Their achievement is to evaluate residual nets with a depth of up to 152 layers—8× deeper than VGG nets but still stay in a lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. With a higher accuracy and well- defined architecture, it is easier for me to do the transfer learning in the last part in order to achieve my final goal. The accuracy provided by their team is 3.57% in general, but I also did an accuracy measurement in my own project as I mentioned above. The accuracy for my dog breed classification model is 81.2201%, that is, there is 81.2201% probability for my model to correctly identify the dog breed if anyone uploads a dog's picture. If a human picture is uploaded, then it would detect the human faces, and automatically match up to the closest dog.
 
 ## Next Steps
 1.Change to a larger database [The Oxford-IIIT Pet Dataset]
@@ -70,7 +71,7 @@ I do hope to build an architecture with a better performance than OpenCV and Res
 
 3.Web-based app
 
-I would like to do an open source web-based app, match up human faces to more animals other than dogs, and include a similarity rate value.
+I would like to do an open source web-based app, match up human faces to more animals other than dogs, including a similarity rate value.
 
 ## Citations
 Dogs vs. Cats | Kaggle, www.kaggle.com/c/dogs-vs-cats. Accessed 10 Sept. 2017.
