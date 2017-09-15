@@ -2,7 +2,7 @@
 Author: Yijia Hao (Danie)
 
 ## Introduction
-This project aims to figure out a quick way to match a human's photo to the closest breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. At the beginning, I just hope to do an identity of the dog-breed identification, but I came up with this interesting idea to do a mapping with human's photo to a specific breed of dog in largest similarity later on. The following steps are included in my project.
+This project aims to figure out a quick way to match a human's photo to the closest breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. At the beginning, I just hope to do an identity of dogs and human face, but I came up with an interesting idea to do a mapping from human's photo to a specific breed of dog in largest similarity later on. The following steps are included in my project.
 * Step 0: 
 Import Dog Data
 * Step: 1:
@@ -15,12 +15,12 @@ Create a CNN to Classify Dog Breeds(Transfer Learning)
 Upload Your Picture
 
 ## Dataset
-My dataset for this dog- classification project includes the images of 133 breed of dogs, which is collected by Udacity.com. The three dataset train, test and valid have already been classified. The train dataset is used for estimating predictive relationships and fit for the estimators; The valid dataset is used for improving overfitting problems existed in train dataset; The test dataset is used for testing the performance of the whole network.
+My dataset for this dog- classification project includes the images of 133 breed of dogs, which is collected by Udacity.com. The three dataset train, test and valid have already been classified. The train dataset is used for estimating predictive relationships as well as fitting for the estimators; The valid dataset is used for improving overfitting problems existed in train dataset; The test dataset is used for testing the performance of the whole network.
 
 ## Motivation
 1.Earned some essential knowledge about CNN and DNN 
 
-I learned about CNN(conventional neural networks) and DNN(deep neural networks) from online classes, which intrigues my curiosity to do some practical projects using the most popular packages to build the architecture of CNN and DNN networks.
+I learned about CNN(conventional neural networks) and DNN(deep neural networks) from online classes, which intrigued my curiosity to do some practical projects using the most popular packages to build the architecture of CNN and DNN networks.
 
 2.kaggle cat vs dog competition. 
 
@@ -52,7 +52,7 @@ https://pypi.python.org/pypi/numpy
 ## Approaches
 1.Human-face detector: OpenCV pre-trained haarcascade_frontalface classifier 
 
-OpenCV pre-trained haarcascade_frontalface classifier helps to extract 2D and 3D features in python and works well on face detector. However, the type I error for my Human Face Detector is 4%, and the type II error for Human Face Detector is 11%. The dog detector performs better on my dataset with a zero type I error and a zero type II error.
+OpenCV pre-trained haarcascade_frontalface classifier helps to extract 2D and 3D features in python and works well on face detector. After doing test for my model, the type I error for my Human Face Detector is 4%, and the type II error for Human Face Detector is 11%. However, The dog detector performs better on my dataset with a zero type I error and a zero type II error.
 
 
 2.Dog-face detector and Transfer learning: ResNet50 pre-trained model 
