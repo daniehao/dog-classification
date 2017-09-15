@@ -70,7 +70,7 @@ I do hope to build an architecture with a better performance than OpenCV and Res
 
 3.Web-based app
 
-I would like to do an open source web-based app, and match up human faces to more animals other than dogs and figure out the similarity between human face and the matched animal.
+I would like to do an open source web-based app, match up human faces to more animals other than dogs, and include a similarity rate value.
 
 ## Citations
 Dogs vs. Cats | Kaggle, www.kaggle.com/c/dogs-vs-cats. Accessed 10 Sept. 2017.
