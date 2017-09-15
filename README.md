@@ -15,7 +15,7 @@ Create a CNN to Classify Dog Breeds(Transfer Learning)
 Upload Your Picture
 
 ## Dataset
-My dataset for this dog- classification project includes the images of 133 breed of dogs, which is collected by Udacity.com. The three dataset train, test and valid have already been classified. The train dataset is used for estimating predictive relationships as well as fitting for the estimators; The valid dataset is used for improving overfitting problems existed in train dataset; The test dataset is used for testing the performance of the whole network.
+My dataset for this dog- classification project includes the images of 133 breed of dogs, which was collected by Udacity.com. The three dataset train, test and valid have already been classified. The train dataset is used for estimating predictive relationships as well as fitting for the estimators; The valid dataset is used for improving overfitting problems existed in train dataset; The test dataset is used for testing the performance of the whole network.
 
 ## Motivation
 1.Earned some essential knowledge about CNN and DNN 
