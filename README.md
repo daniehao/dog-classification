@@ -36,7 +36,7 @@ Collecting data for different breed of dogs could be a tough work, since I need 
 
 OpenCV and Restnet50 have been pre-trained and well- defined.
 
-## Third-party packages 
+## Third-party Packages 
 1.Keras
 https://pypi.python.org/pypi/Keras
 
@@ -59,7 +59,7 @@ OpenCV pre-trained haarcascade_frontalface classifier helps to extract 2D and 3D
 
 I mainly use Restnet50 for the dog detector, the architecture that was originally developed by researchers from Microsoft Research. The paper Deep Residual Learning for Image Recognition talks about how the Microsoft team designed experiments on ImageNet to show the degradation problem and evaluate their method. (http://arxiv.org/abs/1512.03385) Their achievement is to evaluate residual nets with a depth of up to 152 layers—8× deeper than VGG nets but still stay in a lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. With a higher accuracy and well- defined architecture, it is easier for me to do the transfer learning in the last part in order to achieve my final goal. The accuracy provided by their team is 3.57% in general, but I also did an accuracy measurement in my own project as I mentioned above. The accuracy for my dog breed classification model is 81.2201%, that is, there is 81.2201% probability for my model to correctly identify the dog breed if anyone uploads a dog's picture. If a human picture is uploaded, then it would detect the human face, and automatically match up with the closest dog.
 
-## Next steps
+## Next Steps
 1.Change to a larger database [The Oxford-IIIT Pet Dataset]
 
 A larger database could increase the model accuracy by decreasing the overfitting problems and help the computer to extract more general features(http://www.robots.ox.ac.uk/~vgg/data/pets/).
