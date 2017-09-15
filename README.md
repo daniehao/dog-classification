@@ -2,7 +2,7 @@
 Author: Yijia Hao (Danie)
 
 ## Introduction
-This project aims to figure out a quick way to match a human's photo to the closest breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. At the beginning, I just hope to do an identity of dogs and human face, but I came up with an interesting idea to do a mapping from human's photo to a specific breed of dog in largest similarity later on. The following steps are included in my project.
+This project aims to figure out a quick way to match a human's photo to the closest breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. At the beginning, I just hope to do an identity of dogs and human face, but I came up with an interesting idea to do a mapping from human's photo to a specific breed of dog later on. The following steps are included in my project.
 * Step 0: 
 Import Dog Data
 * Step: 1:
