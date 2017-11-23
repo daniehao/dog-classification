@@ -6,7 +6,7 @@ This project aims to figure out a quick way to match a human's photo to the clos
 
 * Step 0: 
 Import Dog Data
-* Step: 1:
+* Step 1:
 Detect Human Face
 * Step 2: 
 Detect Dogs
@@ -30,7 +30,7 @@ A few months ago, I saw a competition from Kaggle.com named "Create an algorithm
 
 3.Advanced and classified dataset provided
 
-Collecting data for different breed of dogs could be a tough work since I need 70 to 100 plus imagines for each breed of dog from all over the world. However, the dataset I got has already been collected and classified, so I could directly use it for deep learning modeling.
+Collecting data for different breed of dogs could be a tough work since I need 70 to 100 plus images for each breed of dog from all over the world. However, the dataset I got has already been collected and classified, so I could directly use it for deep learning modeling.
 
 
 4.Well-defined architecture
@@ -54,7 +54,6 @@ https://pypi.python.org/pypi/numpy
 1.Human-face detector: OpenCV pre-trained haarcascade_frontalface classifier 
 
 OpenCV pre-trained haarcascade_frontalface classifier helps to extract 2D and 3D features in python and works well on face detector. After doing test for my model, the type I error for my Human Face Detector is 4%, and the type II error for Human Face Detector is 11%. However, the dog detector performs better on my dataset with a zero type I error and a zero type II error.
-
 
 2.Dog-face detector and Transfer learning: ResNet50 pre-trained model 
 
