@@ -2,7 +2,7 @@
 Author: Yijia Hao (Danie)
 
 ## Introduction
-This project aims to figure out a quick way to match a human's photo to the closest breed of dog based on CNN(conventional neural networks) and DNN(deep neural networks) models. My inspiration came from the Kaggle competition and a dog dataset created by the artificial intelligence team of Udacity. While I just hoped to do an identity of dogs at the beginning, I came up with a more interesting idea to do a mapping for human faces and a specific breed of dog later on. The following steps are included in my project.
+This project aims to figure out a quick way to match a human's photo to the closest breed of dog based on CNN(convolutional neural networks) and DNN(deep neural networks) models. My inspiration came from the Kaggle competition and a dog dataset created by the artificial intelligence team of Udacity. While I just hoped to do an identity of dogs at the beginning, I came up with a more interesting idea to do a mapping for human faces and a specific breed of dog later on. The following steps are included in my project.
 
 * Step 0: 
 Import Dog Data
@@ -21,7 +21,7 @@ My dataset for this dog- classification project includes the images of 133 breed
 ## Motivation
 1.Earned some essential knowledge about CNN and DNN 
 
-I learned about CNN(conventional neural networks) and DNN(deep neural networks) from online classes, which intrigued my curiosity to do some practical projects with the most popular packages to build the architecture of CNN and DNN networks.
+I learned about CNN(convolutional neural networks) and DNN(deep neural networks) from online classes, which intrigued my curiosity to do some practical projects with the most popular packages to build the architecture of CNN and DNN networks.
 
 2.kaggle cat vs. dog competition. 
 
